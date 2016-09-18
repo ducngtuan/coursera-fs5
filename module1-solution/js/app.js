@@ -9,6 +9,7 @@
     $scope.check = function() {
       if ($scope.lunchMenu === "" || angular.isUndefined($scope.lunchMenu)) {
         $scope.message = "Please enter data first";
+        $scope.isValid = false;
         return;
       }
 
@@ -18,6 +19,7 @@
       } else {
         $scope.message = "Too much!";
       }
+      $scope.isValid = true;
     };
   }
 })();
