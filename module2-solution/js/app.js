@@ -24,12 +24,7 @@
       {name: "milk bottles", quantity: 3},
       {name: "eggs", quantity: 15},
       {name: "bags of chips", quantity: 5},
-      {name: "angular book", quantity: 1},
-      {name: "pizza", quantity: 5},
-      {name: "potatoes", quantity: 20},
-      {name: "icecream", quantity: 4},
-      {name: "apples", quantity: 11},
-      {name: "rice", quantity: 25}
+      {name: "angular book", quantity: 1}
     ];
     service.alreadyBoughtItems = [];
 
